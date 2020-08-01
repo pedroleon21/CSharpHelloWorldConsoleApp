@@ -6,7 +6,7 @@ namespace HelloWorldAppConsole
     {
         static void Main()
         {
-            Mundo a = new Mundo("resposta padrao", 10);
+            Mundo a = new Mundo("Hello World", 10);
             string g;
             Console.WriteLine($"{a.Valido()} , {a.Num} , {a.Resposta}");
             g = Console.ReadLine();
